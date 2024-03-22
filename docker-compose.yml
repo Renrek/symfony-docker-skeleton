@@ -20,7 +20,7 @@ services:
     depends_on:
       - php
   database:
-    container_name: database
+    container_name: mysql
     image: mysql
     command: --default-authentication-plugin=mysql_native_password
     environment:
